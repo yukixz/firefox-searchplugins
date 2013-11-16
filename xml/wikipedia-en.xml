@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Wikipedia (en)</os:ShortName>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8G////if///+b/////////////////////////////////////////////////////////5v///4n///8G////if//////////////////////////////////////////////////////////////////////////////if///+b/////////////////////19fX//z8/P////////////T09P/j4+P//////////////////////////+b/////////////////////+Pj4/xoaGv+NjY3///////////9ycnL/Pj4+/////////////////////////////////////////////////56env8KCgr/Q0ND//b29v/u7u7/DQ0N/zc3N//MzMz///////////////////////////////////////7+/v8rKyv/bGxs/7Kysv+QkJD/hoaG/ycnJ//o6Oj/ZGRk//////////////////////////////////////+1tbX/AwMD/97e3v/+/v7/Tk5O/xgYGP+ioqL//////2RkZP/l5eX/////////////////////////////////QUFB/1dXV////////////4GBgf8fHx//+/v7///////Ly8v/enp6////////////////////////////zMzM/wAAAP/MzMz///////v7+/8kJCT/Li4u//b29v///////////0pKSv/19fX//////////////////////1hYWP9BQUH///////////+enp7/Hx8f/6+vr/+IiIj///////////+kpKT/mJiY/////////////////97e3v8EBAT/tra2///////6+vr/IiIi/5WVlf//////RkZG/+3t7f//////+fn5/z4+Pv/7+/v//////87Ozv8/Pz//AAAA/5KSkv/9/f3/YmJi/wAAAP+enp7/4uLi/zo6Ov9AQED/5eXl/7CwsP8WFhb/UFBQ/9bW1v/9/f3/+/v7//v7+//8/Pz///////v7+//7+/v//Pz8//7+/v/7+/v/+/v7//7+/v/8/Pz/+/v7//v7+//+/v7/////5v//////////////////////////////////////////////////////////////////////////////5v///4n//////////////////////////////////////////////////////////////////////////////4n///8G////if///+b/////////////////////////////////////////////////////////5v///4n///8GgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAA==</os:Image>
+<SearchForm>https://en.wikipedia.org/wiki/Special:Search</SearchForm>
+<os:Url type="text/html" method="GET" template="https://en.wikipedia.org/w/index.php?title=Special:Search&amp;search={searchTerms}">
+</os:Url>
+<os:Url type="application/x-suggestions+json" method="GET" template="http://en.wikipedia.org/w/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0">
+</os:Url>
+<os:Url type="application/x-suggestions+xml" method="GET" template="http://en.wikipedia.org/w/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0">
+</os:Url>
+</SearchPlugin>
