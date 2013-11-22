@@ -1,9 +1,27 @@
-<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/"
+              xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
 <os:ShortName>Google (TLS)</os:ShortName>
 <os:InputEncoding>UTF-8</os:InputEncoding>
-<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsNDxYxodS+TQAAAkJJREFUOMtlk01IVUEYhp8559yLij8F9mNCJEoILSwr0DCI3GSLVolki7bVLtqEqyCDaFfLtm28q9wEGQVFbYwWWWoFuUgsMJPy+nf1nPO9LeZcr9KB4WNmznzf+z3vjOt7kBRS0S+TMxPlIcNHiTSL5bmlQiBJhSgV/UgOQFS+KIT25oADuxwmgURq8PZrzJ8VAThgIJLJ+X3/kwRNDY6rZyIm51ICB4PdOX4Vxf2nGyytbS+Di8zkK0uYQVUEN89FzMwbI+MJkggDGOyOKG36w6JcEALfrz8sifoqaN7tWNsAM0gNXkzF1FY56qsdtkOAfIJyEpnYTESSQsfBgHzkoZViWCmJv2sG+LVMNIEMT1zCBIvLYuxTQssex8WTOdqbAi6fyvHkfczMvFVIZ9H1DK8ro4DkN4JAtO117G8IuN6b48Nsyt3REnEihAdNZmmgjLwyBiYRJ+LLT2P8WwIOeg5HHG8JCYJKkSzgum6vqoJEBA66WkPOd0Qsrhhh4Dh7JCIfwvDoOmMfY5SRlBlRWX4564XOiCun89waWWf6R4oJHr9x3LtUzY2+KsYmYsr9isxGSytOXOvN82o6ZnIu3bq6s4spD5+VqKt2+Ja1dfE8g8wayyw7eiiksZatdeegsc7xfCL2ELYlcZ1DS9sYQFdbxJ3+aorr4t1Mwu9l0bovoLhqPHpZYqGY7lDhjg0tmX8YmT1ATd5xoiWkocaRpDA1l/B9If1PvkmKJBWAAcBlj4LVknj92bZA7YiVIaTCPwE2wiTHV0GxAAAAAElFTkSuQmCC</os:Image>
-<os:Url type="text/html" method="GET" template="https://www.google.com/search">
-  <os:Param name="safe" value="off"/>
-  <os:Param name="q" value="{searchTerms}"/>
+<os:Url type="text/html" method="GET"
+        template="https://www.google.com/search">
+    <os:Param name="safe" value="off"/>
+    <os:Param name="q" value="{searchTerms}"/>
 </os:Url>
+<os:Image width="16" height="16">
+    data:image/x-icon;base64,
+    iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAA
+    AACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsNDxYxodS+TQAAAkJJREFUOMtlk01I
+    VUEYhp8559yLij8F9mNCJEoILSwr0DCI3GSLVolki7bVLtqEqyCDaFfLtm28q9wEGQVFbY
+    wWWWoFuUgsMJPy+nf1nPO9LeZcr9KB4WNmznzf+z3vjOt7kBRS0S+TMxPlIcNHiTSL5bml
+    QiBJhSgV/UgOQFS+KIT25oADuxwmgURq8PZrzJ8VAThgIJLJ+X3/kwRNDY6rZyIm51ICB4
+    PdOX4Vxf2nGyytbS+Di8zkK0uYQVUEN89FzMwbI+MJkggDGOyOKG36w6JcEALfrz8sifoq
+    aN7tWNsAM0gNXkzF1FY56qsdtkOAfIJyEpnYTESSQsfBgHzkoZViWCmJv2sG+LVMNIEMT1
+    zCBIvLYuxTQssex8WTOdqbAi6fyvHkfczMvFVIZ9H1DK8ro4DkN4JAtO117G8IuN6b48Ns
+    yt3REnEihAdNZmmgjLwyBiYRJ+LLT2P8WwIOeg5HHG8JCYJKkSzgum6vqoJEBA66WkPOd0
+    Qsrhhh4Dh7JCIfwvDoOmMfY5SRlBlRWX4564XOiCun89waWWf6R4oJHr9x3LtUzY2+KsYm
+    Ysr9isxGSytOXOvN82o6ZnIu3bq6s4spD5+VqKt2+Ja1dfE8g8wayyw7eiiksZatdeegsc
+    7xfCL2ELYlcZ1DS9sYQFdbxJ3+aorr4t1Mwu9l0bovoLhqPHpZYqGY7lDhjg0tmX8YmT1A
+    Td5xoiWkocaRpDA1l/B9If1PvkmKJBWAAcBlj4LVknj92bZA7YiVIaTCPwE2wiTHV0GxAA
+    AAAElFTkSuQmCC
+</os:Image>
 </SearchPlugin>
